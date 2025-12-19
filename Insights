@@ -1,123 +1,134 @@
-📊 Customer Churn Analysis – Business Insights
+Call Centre Dashboard – Key Insights
 
-📌 Project Context
+1️⃣ Call Volume & Trend Insights
 
-This analysis was conducted to understand customer churn behavior for a telecom company (PhoneNow). Customer churn negatively impacts revenue, customer lifetime value, and operational efficiency. The objective of this analysis is to identify churn drivers, assess customer risk, and recommend actionable retention strategies.
+The call volume across January (1455), February (1298), and March (1301) is relatively stable.
 
- Key Business Questions Addressed:
+There is no extreme spike, indicating predictable workload.
 
-What percentage of customers are churning?
+This stability allows better workforce planning instead of reactive staffing.
 
-Which customer segments are most at risk?
+Insight: Call demand is consistent → inefficiency is not due to volume fluctuation.
 
-What factors contribute most to churn?
+2️⃣ Call Answer Rate Insight
 
-Where can the business intervene to reduce churn?
+Approximately 81% of calls are answered, while ~19% remain unanswered.
 
-🔻 Funnel Analysis Insights:
-Customer Lifecycle Funnel
-Total Customers
-→ Active Customers
-→ At-Risk Customers
-→ Churned Customers
+Nearly 1 in 5 customers fail to connect with an agent.
 
-Findings:
-The largest drop-off occurs before customers churn, indicating a strong opportunity for early intervention.
+Business Impact:
+Unanswered calls lead to:
 
-Customers classified as at-risk (short tenure, high monthly charges, unfavorable contract/payment types) represent a critical segment for retention efforts.
+Poor customer experience
 
-Preventing churn at the at-risk stage can significantly reduce revenue loss.
+Increased repeat calls
 
- Key Analytical Insights:
+Higher operational cost
 
-1️⃣ Contract Type:
+3️⃣ Resolution Rate Insight
 
-Customers on month-to-month contracts exhibit the highest churn rate.
+Among answered calls, ~72.9% are resolved, while ~27.1% remain unresolved.
 
-One-year and two-year contracts show significantly better retention.
+This shows that answering a call does not guarantee issue resolution.
 
-Insight: Contract duration is a strong predictor of churn.
+Insight:
+The main problem is resolution quality, not just call pickup.
 
-2️⃣ Subscription Tenure:
+4️⃣ Average Speed of Answer (ASA) Insight
 
-Customers with less than one year of tenure have the highest churn.
+Average Speed of Answer = 67.52 seconds
 
-Churn risk decreases steadily as tenure increases.
+This wait time is relatively high for a call centre environment.
 
-Insight: Early customer lifecycle is the most vulnerable phase.
+Correlation Observed:
+Higher ASA → Lower customer satisfaction scores.
 
-3️⃣ Internet Service Type:
+Insight:
+Reducing ASA will directly improve customer satisfaction.
 
-Fiber optic customers churn more compared to DSL and non-internet customers.
+5️⃣ Customer Satisfaction Insight
 
-Fiber users also generate a higher number of technical support tickets.
+Average Satisfaction Rating = 3.40 / 5
 
-Insight: Service quality or support experience may be contributing to churn.
+This indicates moderate satisfaction, not excellence.
 
-4️⃣ Payment Method:
+Interpretation:
+Customers are getting basic support but not a “delightful” experience.
 
-Customers using electronic check have a noticeably higher churn rate.
+6️⃣ Agent Performance Insights
 
-Automatic payment methods (credit card, bank transfer) show lower churn.
+From the Agent Statistics table:
 
-Insight: Payment friction and trust may influence customer retention.
+Agents like Dan and Martha show:
 
-5️⃣ Revenue Impact:
+Higher resolved calls
 
-Churned customers contribute significantly to monthly and yearly revenue loss.
+Better satisfaction ratings
 
-High monthly charges are associated with increased churn risk.
+Some agents handle a similar number of calls but achieve lower satisfaction.
 
-Insight: Retaining high-value customers should be a priority.
+Insight:
+Performance variation exists → training and best-practice sharing needed.
 
- Business Recommendations:
+7️⃣ Resolution vs Satisfaction Insight
 
-Based on the insights above, the following actions are recommended:
+Even resolved calls do not always translate into high satisfaction.
 
-Promote Long-Term Contracts
+This suggests:
 
-Offer incentives to migrate month-to-month customers to 1-year or 2-year contracts.
+Communication quality issues
 
-Strengthen Early Lifecycle Engagement
+Incomplete explanations
 
-Implement onboarding and support programs for customers in their first 6 months.
+Long handling time despite resolution
 
-Improve Fiber Optic Support
+Insight:
+Customer satisfaction depends on how the issue is handled, not just whether it is resolved.
 
-Increase technical support capacity and proactively address service issues for fiber customers.
+8️⃣ Funnel Analysis Insight (MOST IMPORTANT)
+Call Centre Funnel:
+Total Calls
+→ Answered Calls
+→ Resolved Calls
+→ Satisfied Customers
 
-Encourage Automatic Payments
+Observed Drop-offs:
 
-Provide discounts or rewards for customers switching from electronic checks to automated payment methods.
+Total → Answered: Staffing or routing gap
 
-Target At-Risk Customers
+Answered → Resolved: Agent skill / process gap
 
-Use churn risk indicators to launch targeted retention campaigns before customers churn.
+Resolved → Satisfied: Experience quality gap
 
- Business Impact:
+ Insight:
+The largest opportunity for improvement lies after the call is answered, not before.
 
-Implementing these recommendations can:
+Key Business Insights Summary:
 
-Reduce overall churn rate
+Call volume is manageable and predictable
 
-Improve customer satisfaction
+Nearly 20% call loss occurs before reaching agents
 
-Protect recurring revenue
+Almost 27% of answered calls are unresolved
 
-Increase customer lifetime value
+ASA is high and affects satisfaction
 
-🛠 Tools & Techniques Used
+Agent performance is inconsistent
 
-Power BI
+Satisfaction score shows room for improvement
 
-DAX measures
+ Business Recommendations (Based on Insights):
 
-Funnel analysis
+Reduce Average Speed of Answer by optimizing shift allocation
 
-Customer segmentation
+Improve first-call resolution through agent training
 
-Business-driven data storytelling
+Use top-performing agents as benchmarks
 
- Conclusion:
+Monitor unanswered calls during peak hours
 
-This analysis demonstrates how combining KPI tracking, funnel analysis, and customer segmentation can provide actionable insights into churn behavior. By focusing on early warning signals and high-risk segments, the business can proactively reduce churn and improve long-term performance.
+Focus on quality of interaction, not just resolution
+
+
+
+“The dashboard shows that while call volumes are stable, significant drop-offs occur after call answering, indicating that improving resolution quality and reducing wait times will have the greatest impact on customer satisfaction.”

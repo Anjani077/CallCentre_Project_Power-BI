@@ -1,230 +1,117 @@
-📄 Business Requirements Document (BRD)
+Business Requirements Document (BRD)
 
-Customer Churn Analysis Dashboard
+Call Centre Performance & Customer Experience Analysis
 
-1. Document Overview
+1. Project Overview
 
-1.1 Project Name
-
-Customer Churn Analysis – Power BI Dashboard
-
-1.2 Prepared By
-
-Business Analyst / Data Analyst
-
-1.3 Objective
-
-To analyze customer churn behavior, identify churn drivers, assess customer risk, and provide actionable recommendations to reduce churn and improve customer retention.
+Project Name: Call Centre Analytics Dashboard
+Prepared By: Business Analyst / Data Analyst
+Tool: Power BI
 
 2. Business Background
 
-Customer churn has a direct impact on:
+The Call Centre is a critical customer touchpoint. Poor response times, unresolved calls, and low satisfaction directly impact:
 
-Revenue loss
+Customer retention
 
-Customer Lifetime Value (CLV)
+Brand perception
 
-Increased acquisition costs
+Operational costs
 
-The business requires a data-driven dashboard to:
-
-Monitor churn metrics
-
-Identify at-risk customers early
-
-Understand factors contributing to churn
-
-Support proactive retention strategies
+Management requires a centralized analytics dashboard to monitor call handling efficiency, agent performance, and customer satisfaction.
 
 3. Business Problem Statement
 
 The organization lacks visibility into:
 
-Why customers are leaving
+Call answer rates and resolution rates
 
-Which customer segments are most at risk
+Agent-wise performance comparison
 
-How churn impacts revenue
+Average Speed of Answer (ASA)
 
-Where intervention can reduce churn
+Customer satisfaction trends
 
-Without actionable insights, retention efforts are reactive instead of proactive.
+Call volume patterns over time
+
+Without these insights, performance optimization is reactive rather than proactive.
 
 4. Stakeholders
-Role	Responsibility
-Business Leadership	Strategic decision-making
-Customer Success Team	Retention actions
-Operations Team	Service improvement
+Stakeholder	Responsibility
+Operations Manager	Improve call handling efficiency
+Call Centre Supervisor	Monitor agent performance
+Customer Experience Team	Improve satisfaction
 Business Analyst	Requirements & insights
-Data Analyst	Data modeling & dashboards
-
+Data Analyst	Dashboard & metrics
 5. Scope
-5.1 In Scope
+In Scope
 
-Customer churn rate analysis
+Call volume analysis
 
-Customer segmentation (contract, tenure, payment method, services)
+Answered vs unanswered calls
 
-Revenue impact of churn
+Resolution rate
 
-Funnel analysis for churn lifecycle
+Average Speed of Answer (ASA)
 
-Interactive Power BI dashboard
+Agent-level performance
 
-5.2 Out of Scope
+Customer satisfaction
 
-Predictive churn modeling
+Out of Scope
 
-Real-time data ingestion
+Speech analytics
 
-CRM system integration
+Sentiment analysis
+
+Real-time call monitoring
 
 6. Business Requirements
-6.1 Functional Requirements
+Functional Requirements
 ID	Requirement
-BR-01	Display total customers and churned customers
-BR-02	Calculate churn rate (%)
-BR-03	Identify customers at risk of churn
-BR-04	Analyze churn by contract type
-BR-05	Analyze churn by payment method
-BR-06	Analyze churn by internet service
-BR-07	Analyze churn by tenure
-BR-08	Show revenue impact of churn
-BR-09	Provide funnel analysis of customer lifecycle
-BR-10	Enable filtering by customer attributes
+BR-01	Display total calls per month
+BR-02	Show answered vs unanswered calls
+BR-03	Calculate resolution rate
+BR-04	Display Average Speed of Answer
+BR-05	Show average satisfaction rating
+BR-06	Provide agent-wise performance table
+BR-07	Enable filtering by agent and topic
+BR-08	Support funnel analysis of call handling
+7. KPIs
 
-6.2 Non-Functional Requirements
+Total Calls
 
-Category	Requirement
-Performance	Dashboard should load within 5 seconds
-Usability	Simple, executive-friendly layout
-Maintainability	Measures reusable and documented
-Scalability	Should support additional customer data
+Answer Rate %
 
-7. Data Requirements
-7.1 Data Sources
+Resolution Rate %
 
-Customer master data
+Average Speed of Answer (ASA)
 
-Subscription and billing data
+Average Satisfaction Rating
 
-Service usage data
+Calls handled per agent
 
-Support ticket data
+8. Funnel Analysis Requirement
+Funnel Stages
+Total Calls
+→ Answered Calls
+→ Resolved Calls
+→ Satisfied Customers
 
-7.2 Key Data Fields
+Purpose
 
-Customer ID
+Identify call drop-offs
 
-Churn status
+Measure service effectiveness
 
-Tenure
+Improve customer experience
 
-Contract type
+9. Success Criteria
 
-Payment method
+Improved resolution rate
 
-Monthly charges
+Reduced ASA
 
-Total charges
+Increased customer satisfaction
 
-Internet service
-
-Support tickets
-
-8. KPIs & Metrics
-KPI	Description
-Total Customers	Total active customer base
-Churned Customers	Customers who left
-Churn Rate (%)	% of customers churned
-Customers at Risk	High-risk churn segment
-Monthly Charges	Average customer spend
-Revenue Lost	Revenue from churned customers
-
-9. Funnel Analysis Requirement
-9.1 Funnel Stages
-Total Customers
-→ Active Customers
-→ At-Risk Customers
-→ Churned Customers
-
-9.2 Business Purpose
-
-Identify early churn signals
-
-Detect maximum drop-off stage
-
-Support targeted retention strategies
-
-10. Dashboard Requirements
-10.1 Pages
-Page 1: Executive Overview
-
-KPI summary
-
-Key insights
-
-Business recommendations
-
-Page 2: Churn Analysis
-
-Churn by contract type
-
-Churn by tenure
-
-Churn by payment method
-
-Service-level churn analysis
-
-Page 3: Customer Risk Analysis
-
-High-risk customer identification
-
-Revenue impact
-
-Support ticket correlation
-
-11. Assumptions
-
-Data provided is accurate and complete
-
-Churn definition is binary (Yes / No)
-
-Monthly charges reflect current pricing
-
-Tenure is measured in months
-
-12. Constraints
-
-Historical data only (no real-time updates)
-
-Limited to available dataset fields
-
-No machine learning implementation
-
-13. Risks & Mitigation
-Risk	Mitigation
-Data quality issues	Data validation & cleansing
-Misinterpretation of churn drivers	Clear definitions & documentation
-Stakeholder misalignment	Regular review checkpoints
-
-14. Business Recommendations (High-Level)
-
-Promote long-term contracts to reduce churn
-
-Improve service quality for high-churn services
-
-Incentivize automatic payment methods
-
-Target early-tenure customers with onboarding programs
-
-15. Success Criteria
-
-Clear identification of churn drivers
-
-Actionable insights for retention
-
-Improved decision-making capability
-
-Dashboard adoption by business stakeholders
-
+Actionable agent performance insights
