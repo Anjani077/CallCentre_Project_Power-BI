@@ -1,0 +1,230 @@
+📄 Business Requirements Document (BRD)
+
+Customer Churn Analysis Dashboard
+
+1. Document Overview
+
+1.1 Project Name
+
+Customer Churn Analysis – Power BI Dashboard
+
+1.2 Prepared By
+
+Business Analyst / Data Analyst
+
+1.3 Objective
+
+To analyze customer churn behavior, identify churn drivers, assess customer risk, and provide actionable recommendations to reduce churn and improve customer retention.
+
+2. Business Background
+
+Customer churn has a direct impact on:
+
+Revenue loss
+
+Customer Lifetime Value (CLV)
+
+Increased acquisition costs
+
+The business requires a data-driven dashboard to:
+
+Monitor churn metrics
+
+Identify at-risk customers early
+
+Understand factors contributing to churn
+
+Support proactive retention strategies
+
+3. Business Problem Statement
+
+The organization lacks visibility into:
+
+Why customers are leaving
+
+Which customer segments are most at risk
+
+How churn impacts revenue
+
+Where intervention can reduce churn
+
+Without actionable insights, retention efforts are reactive instead of proactive.
+
+4. Stakeholders
+Role	Responsibility
+Business Leadership	Strategic decision-making
+Customer Success Team	Retention actions
+Operations Team	Service improvement
+Business Analyst	Requirements & insights
+Data Analyst	Data modeling & dashboards
+
+5. Scope
+5.1 In Scope
+
+Customer churn rate analysis
+
+Customer segmentation (contract, tenure, payment method, services)
+
+Revenue impact of churn
+
+Funnel analysis for churn lifecycle
+
+Interactive Power BI dashboard
+
+5.2 Out of Scope
+
+Predictive churn modeling
+
+Real-time data ingestion
+
+CRM system integration
+
+6. Business Requirements
+6.1 Functional Requirements
+ID	Requirement
+BR-01	Display total customers and churned customers
+BR-02	Calculate churn rate (%)
+BR-03	Identify customers at risk of churn
+BR-04	Analyze churn by contract type
+BR-05	Analyze churn by payment method
+BR-06	Analyze churn by internet service
+BR-07	Analyze churn by tenure
+BR-08	Show revenue impact of churn
+BR-09	Provide funnel analysis of customer lifecycle
+BR-10	Enable filtering by customer attributes
+
+6.2 Non-Functional Requirements
+
+Category	Requirement
+Performance	Dashboard should load within 5 seconds
+Usability	Simple, executive-friendly layout
+Maintainability	Measures reusable and documented
+Scalability	Should support additional customer data
+
+7. Data Requirements
+7.1 Data Sources
+
+Customer master data
+
+Subscription and billing data
+
+Service usage data
+
+Support ticket data
+
+7.2 Key Data Fields
+
+Customer ID
+
+Churn status
+
+Tenure
+
+Contract type
+
+Payment method
+
+Monthly charges
+
+Total charges
+
+Internet service
+
+Support tickets
+
+8. KPIs & Metrics
+KPI	Description
+Total Customers	Total active customer base
+Churned Customers	Customers who left
+Churn Rate (%)	% of customers churned
+Customers at Risk	High-risk churn segment
+Monthly Charges	Average customer spend
+Revenue Lost	Revenue from churned customers
+
+9. Funnel Analysis Requirement
+9.1 Funnel Stages
+Total Customers
+→ Active Customers
+→ At-Risk Customers
+→ Churned Customers
+
+9.2 Business Purpose
+
+Identify early churn signals
+
+Detect maximum drop-off stage
+
+Support targeted retention strategies
+
+10. Dashboard Requirements
+10.1 Pages
+Page 1: Executive Overview
+
+KPI summary
+
+Key insights
+
+Business recommendations
+
+Page 2: Churn Analysis
+
+Churn by contract type
+
+Churn by tenure
+
+Churn by payment method
+
+Service-level churn analysis
+
+Page 3: Customer Risk Analysis
+
+High-risk customer identification
+
+Revenue impact
+
+Support ticket correlation
+
+11. Assumptions
+
+Data provided is accurate and complete
+
+Churn definition is binary (Yes / No)
+
+Monthly charges reflect current pricing
+
+Tenure is measured in months
+
+12. Constraints
+
+Historical data only (no real-time updates)
+
+Limited to available dataset fields
+
+No machine learning implementation
+
+13. Risks & Mitigation
+Risk	Mitigation
+Data quality issues	Data validation & cleansing
+Misinterpretation of churn drivers	Clear definitions & documentation
+Stakeholder misalignment	Regular review checkpoints
+
+14. Business Recommendations (High-Level)
+
+Promote long-term contracts to reduce churn
+
+Improve service quality for high-churn services
+
+Incentivize automatic payment methods
+
+Target early-tenure customers with onboarding programs
+
+15. Success Criteria
+
+Clear identification of churn drivers
+
+Actionable insights for retention
+
+Improved decision-making capability
+
+Dashboard adoption by business stakeholders
+

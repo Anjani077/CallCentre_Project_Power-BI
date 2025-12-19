@@ -1,0 +1,123 @@
+📊 Customer Churn Analysis – Business Insights
+
+📌 Project Context
+
+This analysis was conducted to understand customer churn behavior for a telecom company (PhoneNow). Customer churn negatively impacts revenue, customer lifetime value, and operational efficiency. The objective of this analysis is to identify churn drivers, assess customer risk, and recommend actionable retention strategies.
+
+ Key Business Questions Addressed:
+
+What percentage of customers are churning?
+
+Which customer segments are most at risk?
+
+What factors contribute most to churn?
+
+Where can the business intervene to reduce churn?
+
+🔻 Funnel Analysis Insights:
+Customer Lifecycle Funnel
+Total Customers
+→ Active Customers
+→ At-Risk Customers
+→ Churned Customers
+
+Findings:
+The largest drop-off occurs before customers churn, indicating a strong opportunity for early intervention.
+
+Customers classified as at-risk (short tenure, high monthly charges, unfavorable contract/payment types) represent a critical segment for retention efforts.
+
+Preventing churn at the at-risk stage can significantly reduce revenue loss.
+
+ Key Analytical Insights:
+
+1️⃣ Contract Type:
+
+Customers on month-to-month contracts exhibit the highest churn rate.
+
+One-year and two-year contracts show significantly better retention.
+
+Insight: Contract duration is a strong predictor of churn.
+
+2️⃣ Subscription Tenure:
+
+Customers with less than one year of tenure have the highest churn.
+
+Churn risk decreases steadily as tenure increases.
+
+Insight: Early customer lifecycle is the most vulnerable phase.
+
+3️⃣ Internet Service Type:
+
+Fiber optic customers churn more compared to DSL and non-internet customers.
+
+Fiber users also generate a higher number of technical support tickets.
+
+Insight: Service quality or support experience may be contributing to churn.
+
+4️⃣ Payment Method:
+
+Customers using electronic check have a noticeably higher churn rate.
+
+Automatic payment methods (credit card, bank transfer) show lower churn.
+
+Insight: Payment friction and trust may influence customer retention.
+
+5️⃣ Revenue Impact:
+
+Churned customers contribute significantly to monthly and yearly revenue loss.
+
+High monthly charges are associated with increased churn risk.
+
+Insight: Retaining high-value customers should be a priority.
+
+ Business Recommendations:
+
+Based on the insights above, the following actions are recommended:
+
+Promote Long-Term Contracts
+
+Offer incentives to migrate month-to-month customers to 1-year or 2-year contracts.
+
+Strengthen Early Lifecycle Engagement
+
+Implement onboarding and support programs for customers in their first 6 months.
+
+Improve Fiber Optic Support
+
+Increase technical support capacity and proactively address service issues for fiber customers.
+
+Encourage Automatic Payments
+
+Provide discounts or rewards for customers switching from electronic checks to automated payment methods.
+
+Target At-Risk Customers
+
+Use churn risk indicators to launch targeted retention campaigns before customers churn.
+
+ Business Impact:
+
+Implementing these recommendations can:
+
+Reduce overall churn rate
+
+Improve customer satisfaction
+
+Protect recurring revenue
+
+Increase customer lifetime value
+
+🛠 Tools & Techniques Used
+
+Power BI
+
+DAX measures
+
+Funnel analysis
+
+Customer segmentation
+
+Business-driven data storytelling
+
+ Conclusion:
+
+This analysis demonstrates how combining KPI tracking, funnel analysis, and customer segmentation can provide actionable insights into churn behavior. By focusing on early warning signals and high-risk segments, the business can proactively reduce churn and improve long-term performance.
